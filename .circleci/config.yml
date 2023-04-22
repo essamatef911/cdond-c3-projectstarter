@@ -129,7 +129,7 @@ jobs:
           keys: [scanfrontend-test]
 
       - run:
-          name: Scan frontend
+          name: Scan-Frontend
           command: |
 
             cd frontend
@@ -154,7 +154,7 @@ jobs:
           keys: [scanbackend-test]
 
       - run:
-          name: Scan backend
+          name: Scan-Backend
           command: |
 
             cd backend
